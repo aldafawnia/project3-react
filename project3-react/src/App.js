@@ -15,9 +15,12 @@ function App() {
     <React.Fragment>
         <Router>
           <Switch>
-              <Route path="/product">
+              <Route path="/">
                 <LandingPage/>
               </Route>
+              {/* <Route path="/product">
+                <ProductCategory/>
+              </Route> */}
           </Switch>
       </Router>
     </React.Fragment>
