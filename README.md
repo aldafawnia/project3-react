@@ -17,7 +17,7 @@ Backend part (Adonis) can be found [here](https://github.com/aldafawnia/project3
 
 ## Strategy 
 
-The purpose of this website is to create a platform where customers who believe in ethical and green ingredients will be able to search beauty products that share the same values as them. This will allow them to save time on doing tedious research on products that are free from animal cruelty, vegan, gluten-free, etc. The main competitors for this website would be Sephora. However they sell a vast products which may not be brands that are transparent or ethical, therefore Seduire is a niche platform. Aiming to bring a community of people who shares similar beliefs. 
+The purpose of this website is to create a platform where customers who believe in ethical and green ingredients will be able to search beauty products that share the same values as them. This will allow them to save time on doing tedious research on products that are free from animal cruelty, vegan, gluten-free, etc. The main competitors for this website would be Sephora, Naturisimo. However Sephora sell a vast products which may not be brands that are transparent or ethical, Naturisimo on the other hand is slightly similar to our website as they believe in ethical beauty too. Seduire aimi to not only build a platform but a community for people who shares similar beliefs. 
 
 ``` 
 Site Owner Objective:
@@ -64,3 +64,32 @@ Images:
 
 Images selected have been based on the product image. The pictures chosen on the pages are mostly selected based on the official website of the brands. 
 
+## Features
+
+Content :
+
+The website contains products users will be able to filter on based on categories or brands. 
+Providing description on each products on the ingredients used, and the uniqueness of each products. 
+
+Responsiveness: 
+
+The website is user-friendly. There's a sub header to filter based on product categories. 
+
+Consistency: 
+
+The header stay consistent throughout the site. The atmosphere, theme and mood of the website also stays consistent. 
+
+## Technologies 
+
+ReactJS and CSS is used in structuring and styling this website. 
+Javascript to implement interactivity with website. 
+Boostrap for React are used for navbar and other bootstrap icons and components. 
+API, Axios to read from database
+Adonis for rendering data
+GitHub for repositories
+
+## Credits 
+
+https://www.milkmakeup.com/
+https://iliabeauty.com/
+https://www.glossier.com/category/makeup
