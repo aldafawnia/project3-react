@@ -12,6 +12,9 @@ import Card from 'react-bootstrap/Card';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 
+import Register from './Register';
+import Cart from './Cart';
+
 export default function ProductCategory(){
 
     const [categories, setProducts] = useState([]);
@@ -36,7 +39,7 @@ export default function ProductCategory(){
                 for(let product of category.products){
                     jsx.push(
                     <React.Fragment>
-                      <Card style={{width:"25%"}}>
+                      <Card style={{width:"30%"}}>
                         <Card.Body>
                             <Card.Img variant="top" src={product.image}/>
                             <Card.Text>
@@ -89,6 +92,12 @@ export default function ProductCategory(){
                 </Route>
                 <Route exact path="/product/matte">
                     {renderProduct("Matte")}
+                </Route>
+                <Route exact path="/register">
+                    <Register/>
+                </Route>
+                <Route exact path="/cart">
+                    <Cart/>
                 </Route>
             </Switch>
         </React.Fragment>

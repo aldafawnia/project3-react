@@ -8,7 +8,7 @@ import {
     Route,
 } from "react-router-dom";
 
-// import '../styles/MenuPage.css';
+import '../styles/LandingPage.css';
 
 import Card from 'react-bootstrap/Card';
 import Navbar from 'react-bootstrap/Navbar';
@@ -22,29 +22,36 @@ export default class LandingPage extends React.Component{
     render(){
         return(
             <React.Fragment>
-                <Navbar bg="danger">
+                <Navbar>
                     <Navbar.Brand className="mr-5">
                       <img
-                         src="./images/burger_shop_logo.png"
-                         width="90"
+                         src="../seduire_logo.png"
+                         width="250"
                          height="80"
                          className="d-inline-block align-top"
-                         alt="The Burger Shop Logo"
+                         alt="Seduire Logo"
                        />
                     </Navbar.Brand>
-                    <div id="menu-bar">
-                     <Button onClick={this.cartPopOut} variant="danger">
-                      <CartFill style={{color:"white", width:"40px", height:"40px"}}/>
+                    <div id="product-bar">
+                     <Button onClick={this.cartPopOut} variant="white">
+                      <CartFill style={{color:"black", width:"40px", height:"40px"}}/>
                      </Button>
                     </div>
                 </Navbar>
-                <div id="main-menu">
-                    <div style={{width:"20%", backgroundColor:"#ffc107"}}>
+                <div id="product-menu">
+                    <div class="btn-bar">
+                    <div style={{backgroundColor:"grey"}}>
                        <LandingNav/>
                     </div>
-                    <div id="menu-container">
+                    </div>
+                </div>
+                <div class="container">
+                    <div id="product-container">
                        <ProductCategory/>
                     </div>
+                <div>
+
+                </div>
                 </div>
             </React.Fragment>
         )

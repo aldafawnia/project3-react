@@ -49,7 +49,7 @@ export default function LandingNav(){
         for(let category of categories){
             jsx.push(
                 <React.Fragment>
-                    <Button variant="warning" style={{fontSize:"25px", width:"100%"}} onClick={() => changeRoute(category.category_name)}>{category.category_name}</Button>
+                    <Button style={{fontSize:"24px",color:"white", backgroundColor:"grey", border:'none'}} onClick={() => changeRoute(category.category_name)}>{category.category_name}</Button>
                 </React.Fragment>
             )
         }
@@ -59,6 +59,7 @@ export default function LandingNav(){
     return(
         <React.Fragment>
             {renderCategories()}
+            <Button onClick={()=>history.push('/register')}>Register</Button>
         </React.Fragment>
     )
 }
